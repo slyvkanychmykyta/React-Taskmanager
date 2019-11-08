@@ -1,0 +1,51 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.task {
+    width: 250px;
+    text-align: center;
+    background-color: #ffffff;
+    filter: drop-shadow(0 0 2px red);
+    margin-right: 25px;
+    margin-bottom: 30px;
+}
+
+.task:hover {
+    filter: drop-shadow(0 0 4px red);
+}
+
+.task__name {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.task__ctrl-btn {
+    width: 80%;
+    margin: 10px auto;
+    padding: 5px 0;
+    border-radius: 5px;
+}
+
+.task__ctrl-btn:hover {
+    color: #ffffff;
+}
+
+.task__ctrl-btn--remove {
+    border: 2px solid crimson;
+}
+
+.task__ctrl-btn--remove:hover {
+    background-color: rgba(255, 0, 0, 0.8);
+}
+
+.task__ctrl-btn--done {
+    border: 2px solid lightgreen;
+}
+
+.task__ctrl-btn--done:hover {
+    background-color: rgba(56, 222, 31, 0.8);
+}
+
+.task--done {
+    filter: drop-shadow(0 0 2px rgba(56, 222, 31, 0.8));
+}
